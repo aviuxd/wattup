@@ -5575,7 +5575,7 @@ button.close {
 }
 @media (max-width: 480px) {
   .carousel-caption {
-    top: 5px;
+    top: 30px;
   }
   .carousel-caption h1 {
     font-size: 14px;
@@ -5586,7 +5586,7 @@ button.close {
 }
 @media (min-width: 480px) {
   .carousel-caption {
-    top: 10px;
+    top: 50px;
   }
   .carousel-caption h1 {
     font-size: 18px;
@@ -5597,7 +5597,7 @@ button.close {
 }
 @media (min-width: 768px) {
   .carousel-caption {
-    top: 20px;
+    top: 90px;
   }
   .carousel-caption h1 {
     font-size: 24px;
@@ -5608,7 +5608,7 @@ button.close {
 }
 @media (min-width: 992px) {
   .carousel-caption {
-    top: 50px;
+    top: 150px;
   }
   .carousel-caption h1 {
     font-size: 30px;
@@ -5619,7 +5619,7 @@ button.close {
 }
 @media (min-width: 1200px) {
   .carousel-caption {
-    top: 100px;
+    top: 200px;
   }
   .carousel-caption h1 {
     font-size: 36px;
@@ -5650,7 +5650,7 @@ button.close {
   .carousel-caption {
     left: 20%;
     right: 20%;
-    padding-bottom: 30px;
+    /*     padding-bottom: 30px; */
   }
   .carousel-indicators {
     bottom: 20px;
