@@ -75,19 +75,6 @@
     <div class="container wufoo-form" >
 	    <div class="row">
 			<div class="col-md-12">
-<!--
-				<h2 class="chariot-featurette-heading">Check in with Chariot</h2>
-				<p class="chariot-lead">And we'll keep you up to date about the launch, monthly pricing, and new routes.</p>
--->
-<!--
-
-  <div class="form-group">
-    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
-    <div class="col-sm-10">
-      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-    </div>
-  </div>
--->
 			
 					<form id="form1" name="form1" class="wufoo leftLabel page form-horizontal" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
 					      action="https://wattup.wufoo.com/forms/z5q4vws11b139n/#public" role="form">
@@ -313,6 +300,7 @@
 					</li><li id="foli40" class="notranslate       ">
 					<label class="desc col-xs-2 control-label" id="title40" for="Field40">
 					Have you applied to other Solar companies?
+<!-- 					 -->
 					</label>
 					<div>
 					<select id="Field40" name="Field40" class="field select medium col-xs-10 form-control" tabindex="10" > 
@@ -341,10 +329,11 @@
 					Other
 					</option>
 					</select>
+					   
 					</div>
-					<p class="instruct" id="instruct40"><small>Don't worry! WattUp does not count it against you if you have applied to other Solar companies.</small></p>
-					</li>
-					<li id="foli42" class="notranslate      ">
+						<p class="help-block" style="margin:-15px -25px 0 0;">Don't worry! WattUp does not count it against you if you've unsuccessfully applied to other solar companies.</p>
+					</li>					 
+					<li id="foli42" class="notranslate      " style="display:none;">
 					<label class="desc col-xs-2 control-label" id="title42" for="Field42">
 					What other Solar companies have you applied to?
 					</label>
@@ -367,7 +356,6 @@
 					</li>
 					</ul>
 					</form> 
-
 			</div><!--container-->
 	    </div>
     </div> <!-- End Forms Container-->
@@ -388,10 +376,11 @@
 				<div class="pull-left footer-padding">
 					<a href="careers.html">Careers</a>
 				</div>
+-->
 				<div class="pull-left footer-padding">
 					<a href="privacy.html">Privacy Policy</a>
 				</div>
--->
+
 			</div>
 	  	</div>
 	  </footer>
@@ -415,6 +404,21 @@
             });
         });
     });
+    </script>
+    <script>
+		$(document).ready(function(){
+			$("#Field40").change(function()
+			{
+				if($(this).val() == 'Other')
+				{
+					$("#foli42").css("display","block");
+				}
+				else
+				{
+					$("#foli42").hide();
+				};
+			});
+		});
     </script>
 <!--
 	<script>
