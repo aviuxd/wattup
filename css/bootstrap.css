@@ -4371,7 +4371,7 @@ a.list-group-item.active > .badge,
   padding-bottom: 60px;
   margin-bottom: 30px;
   color: #ffffff;
-  background-color: #44b06b;
+  background-color: #eeeeee;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -5886,7 +5886,7 @@ body{
   padding-bottom: 60px;
   margin-bottom: 30px;
   color: #ffffff;
-  background-color: #44b06b;
+  background-color: #eeeeee;
 }
 .wattup-jumbotron h1,
 .wattup-jumbotron .h1 {
@@ -6033,9 +6033,8 @@ td:nth-child(2) {
   margin-top: 65px;
   color: #fff;
   background-image: url('../images/footer-bg.png');
-  /* 	background-color:	#b54722;  */
   background-repeat: repeat;
-  background-size: 50% 50%;
+  background-size: 100% 100%;
   height: 150px;
   width: 100%;
   padding-top: 70px;
